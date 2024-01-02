@@ -1,0 +1,115 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(170,22,200,1) 48%, rgba(0,212,255,1) 100%);
+background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    color: whitesmoke;
+}
+.product-item:hover{
+    box-shadow: 5px 5px 5px 0 rgba(255, 255, 255, 0.5);
+
+}
+
+   
+
+header{
+    display: flex;
+    flex-wrap: wrap; 
+    row-gap: 1em;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav ul{
+    
+    display: flex;
+   ;
+}
+
+nav ul li{
+    list-style:none;
+    justify-content: space-around
+}
+nav ul li a  {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #e100ff;
+    color: #fff;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+    
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #1870dc;
+  }
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #e100ff;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+

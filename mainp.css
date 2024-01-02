@@ -1,0 +1,51 @@
+body{
+  background-image: url("main.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    flex:3;
+    font-size: 2.5rem;
+    padding-left: 1em;
+    padding-top: 5px;
+    min-width: 260px;
+    background: rgb(2,0,36);
+background-color: rgba(228,229,45,0.8) ;
+}
+header #intro{
+    background-color:rgba(1, 9, 11, 0.7) ;
+    font-size: larger;
+    font-weight: bolder;
+    color: #fffafa;
+    display: flex;
+    height: 30vh;
+    width: 50dvw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logins {
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(290px,1fr));
+    padding-top: 10px;
+    gap: 10px; 
+}
+
+.box {
+    background-color:rgba(256,256,256,0.6);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid black;
+  }
+  .box a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .box a:hover{
+    box-shadow:10px 10px 5px #e80fda; 
+  }

@@ -1,0 +1,24 @@
+body{
+    background-image: url("product.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    color: whitesmoke;
+}
+.product-item:hover{
+    box-shadow: 5px 5px 5px 0 rgba(255, 255, 255, 0.5);
+
+}
